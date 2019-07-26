@@ -5,5 +5,7 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--Code here-->
+    <bean id="helloWorld" class="com.example.SpringIoCpractice.HelloWorld">
+        <property name="hello" value="Sprrrrrrrrrrrrrrrrrrring"/> <!-- 需要有setter方法，对应name的方法是setName -->
+    </bean>
 </beans>
